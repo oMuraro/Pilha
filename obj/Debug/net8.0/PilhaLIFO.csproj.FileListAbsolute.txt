@@ -1,0 +1,14 @@
+C:\Users\aluno\Desktop\PilhaLIFO\bin\Debug\net8.0\PilhaLIFO.exe
+C:\Users\aluno\Desktop\PilhaLIFO\bin\Debug\net8.0\PilhaLIFO.deps.json
+C:\Users\aluno\Desktop\PilhaLIFO\bin\Debug\net8.0\PilhaLIFO.runtimeconfig.json
+C:\Users\aluno\Desktop\PilhaLIFO\bin\Debug\net8.0\PilhaLIFO.dll
+C:\Users\aluno\Desktop\PilhaLIFO\bin\Debug\net8.0\PilhaLIFO.pdb
+C:\Users\aluno\Desktop\PilhaLIFO\obj\Debug\net8.0\PilhaLIFO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aluno\Desktop\PilhaLIFO\obj\Debug\net8.0\PilhaLIFO.AssemblyInfoInputs.cache
+C:\Users\aluno\Desktop\PilhaLIFO\obj\Debug\net8.0\PilhaLIFO.AssemblyInfo.cs
+C:\Users\aluno\Desktop\PilhaLIFO\obj\Debug\net8.0\PilhaLIFO.csproj.CoreCompileInputs.cache
+C:\Users\aluno\Desktop\PilhaLIFO\obj\Debug\net8.0\PilhaLIFO.dll
+C:\Users\aluno\Desktop\PilhaLIFO\obj\Debug\net8.0\refint\PilhaLIFO.dll
+C:\Users\aluno\Desktop\PilhaLIFO\obj\Debug\net8.0\PilhaLIFO.pdb
+C:\Users\aluno\Desktop\PilhaLIFO\obj\Debug\net8.0\PilhaLIFO.genruntimeconfig.cache
+C:\Users\aluno\Desktop\PilhaLIFO\obj\Debug\net8.0\ref\PilhaLIFO.dll
