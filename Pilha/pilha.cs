@@ -70,15 +70,16 @@ public struct Pilha
         return false;
     }
 
-    public void contador()
+    public int contador()
     {
         if (estaVazia() == true)
         {
             Console.WriteLine("A lista esta vazia");
+            return 0;
         }
         else
         {
-            int cont = 0;
+        int cont = 0;
             No noAtual = this.topo;
 
             while (noAtual != null)
@@ -86,9 +87,9 @@ public struct Pilha
                 cont++;
                 noAtual = noAtual.prox;
             }
-            Console.WriteLine("A lista possui " + cont + " elementos");
+            // Console.WriteLine("A lista possui " + cont + " elementos");
+            return cont;
         }
-
     }
 
     public void verificaImpar()
@@ -102,26 +103,34 @@ public struct Pilha
             int cont = 0;
             No noAtual = this.topo;
 
-            while(noAtual != null){
-                if(noAtual.valor % 2 != 0){
+            while (noAtual != null)
+            {
+                if (noAtual.valor % 2 != 0)
+                {
                     cont++;
                 }
                 noAtual = noAtual.prox;
             }
-                Console.WriteLine("A quantidade de elementos ímpares é " + cont);
+            Console.WriteLine("A quantidade de elementos ímpares é " + cont);
         }
     }
 
-    public void separaNumeros(){
+    public void separaNumeros()
+    {
         No noAtual = this.topo;
         Pilha pilha2 = new Pilha();
         Pilha pilha3 = new Pilha();
 
-        while(noAtual != null){
-            if(noAtual.valor <= 0){
+        while (noAtual != null)
+        {
+            if (noAtual.valor <= 0)
+            {
                 pilha2.push(noAtual.valor);
-            } else {
-                if(noAtual.valor > 0){
+            }
+            else
+            {
+                if (noAtual.valor > 0)
+                {
                     pilha3.push(noAtual.valor);
                 }
             }
@@ -135,15 +144,57 @@ public struct Pilha
         pilha3.imprimir();
     }
 
-    public void inverter(){
+    public void inverter()
+    {
         No noAtual = this.topo;
         Pilha pilha2 = new Pilha();
 
-        while(noAtual != null){
+        while (noAtual != null)
+        {
             pilha2.push(noAtual.valor);
             noAtual = noAtual.prox;
         }
         this = pilha2;
+    }
+
+    public bool verificaPalindromo()
+    {
+        No noAtual = this.topo;
+        Pilha pilha2 = new Pilha();
+
+        pilha2 = this;
+        pilha2.inverter();
+
+        if (this.contador() != pilha2.contador())
+        {
+            return false;
+        }
+
+        No noAtual2 = pilha2.topo;
+        while (noAtual != null)
+        {
+            if (noAtual.valor != noAtual2.valor)
+            {
+                Console.WriteLine("Não é um palindromo");
+                return false;
+            }
+            noAtual = noAtual.prox;
+            noAtual2 = noAtual2.prox;
+        }
+
+        Console.WriteLine("É um palindromo");
+        return true;
+    }
+
+    public void trocaElementos(Pilha pilha){
+        No noAtual = pilha.topo;
+
+        while(noAtual != null){
+            this.push(noAtual.valor);
+            pilha.pop();
+            noAtual = noAtual.prox;
+        }
+        this.inverter();
     }
 
     public void imprimir()

@@ -1,15 +1,20 @@
 ﻿Pilha pilha = new Pilha();
+Pilha pilha2 = new Pilha();
 
 pilha.push(1);
-pilha.push(-9);
-pilha.push(12);
-pilha.push(30);
-pilha.push(-5);
-pilha.push(-2);
+pilha.push(2);
+pilha.push(3);
+pilha.push(5);
+pilha.push(4);
+
+pilha2.trocaElementos(pilha);
 
 pilha.imprimir();
-pilha.separaNumeros();
+Console.WriteLine("///");
+pilha2.imprimir();
 
+
+// pilha.verificaPalindromo();
 // pilha.contador();
 // pilha.verificaImpar();
 // pilha.imprimir();

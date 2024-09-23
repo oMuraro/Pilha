@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\aluno\\.nuget\\packages\\": {}
+    "C:\\Users\\muras\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aluno\\Desktop\\PilhaLIFO\\PilhaLIFO.csproj",
+      "projectUniqueName": "C:\\Users\\muras\\Desktop\\Pilha\\PilhaLIFO.csproj",
       "projectName": "PilhaLIFO",
-      "projectPath": "C:\\Users\\aluno\\Desktop\\PilhaLIFO\\PilhaLIFO.csproj",
-      "packagesPath": "C:\\Users\\aluno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aluno\\Desktop\\PilhaLIFO\\obj\\",
+      "projectPath": "C:\\Users\\muras\\Desktop\\Pilha\\PilhaLIFO.csproj",
+      "packagesPath": "C:\\Users\\muras\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\muras\\Desktop\\Pilha\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\aluno\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\muras\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -64,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
